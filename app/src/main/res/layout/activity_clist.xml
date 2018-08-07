@@ -6,38 +6,82 @@
     android:layout_height="match_parent"
     tools:context="cohackerthon.app.cokerthon.Clist">
 
-    <Button
-        android:id="@+id/button2"
+    <android.support.v7.widget.AppCompatImageButton
+        android:id="@+id/high"
         android:layout_width="0dp"
-        android:layout_height="210dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_height="0dp"
+        android:background="#00000000"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/door"
+        app:layout_constraintBottom_toTopOf="@+id/people"
+        app:layout_constraintDimensionRatio="2:1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="0dp"
-        android:layout_height="210dp"
-        android:layout_marginEnd="8dp"
+    <TextView
+        android:id="@+id/text_door"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:text="폐쇄공포증"
+        android:textColor="#ffffff"
+        android:textSize="22sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toTopOf="@+id/high" />
 
-    <Button
-        android:id="@+id/button4"
+    <android.support.v7.widget.AppCompatImageButton
+        android:id="@+id/people"
         android:layout_width="0dp"
-        android:layout_height="210dp"
-        android:layout_marginEnd="8dp"
+        android:layout_height="0dp"
+        android:background="#00000000"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/high"
+        app:layout_constraintBottom_toTopOf="@+id/water"
+        app:layout_constraintDimensionRatio="w,2:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/high" />
+
+    <android.support.v7.widget.AppCompatImageButton
+        android:id="@+id/water"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#00000000"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/people"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="2:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/people" />
+
+    <TextView
+        android:id="@+id/text_high"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        android:text="고소공포증"
+        android:textColor="#ffffff"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="@+id/people"
+        app:layout_constraintTop_toTopOf="@+id/people" />
+
+    <TextView
+        android:id="@+id/text_people"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="대인공포증"
+        android:textColor="#ffffff"
+        android:textSize="22sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3" />
+        app:layout_constraintTop_toTopOf="@+id/water" />
+
 </android.support.constraint.ConstraintLayout>

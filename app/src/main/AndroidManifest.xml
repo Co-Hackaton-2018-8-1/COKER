@@ -17,7 +17,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".Clist" />
-        <activity android:name=".Detail"></activity>
+        <activity android:name=".Detail" />
+        <activity android:name=".Detail2" />
+        <activity android:name=".Detail3"></activity>
     </application>
 
 </manifest>
