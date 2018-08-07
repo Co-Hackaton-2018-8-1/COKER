@@ -13,7 +13,6 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
-        android:fontFamily="@font/HMFMPYUN"
         android:text="대인공포증"
         android:textSize="40sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -40,7 +39,6 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="20dp"
-        android:fontFamily="@font/HMFMPYUN"
         android:text="낯선 인물과의 대면 혹은 대화에 공포 반응을 보이는 공포증을 뜻한다. 공황장애와 광장 공포증과 대인 공포증은 구분이 어렵다. 사람을 만나면 공포에 빠진다면 대인공포증이라 볼수있다. 공포증 발생원인으로는 왕따와같은 마음의 상처가 있거나 자존감이 낮은 경우 생길 수 있다. 종류로는 적면공포, 시선공포, 대화공포가 있다."
         android:textAppearance="@style/TextAppearance.AppCompat"
         android:textSize="25sp"
@@ -50,5 +48,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view" />
 
+    <Button
+        android:id="@+id/button2"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="Pre"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
