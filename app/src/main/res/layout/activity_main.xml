@@ -4,12 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-<<<<<<< HEAD
     android:background="@drawable/gradient"
-
     tools:context=".Main">
-=======
-    tools:context=".Main">
+>
 
     <TextView
         android:id="@+id/textView"
@@ -38,5 +35,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
->>>>>>> 9acb192495eedcd9a196dc7114eac82e855cbc20
+
 </android.support.constraint.ConstraintLayout>
