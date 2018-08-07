@@ -1,26 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="cohackerthon.app.cokerthon.Clist">
 
 
-<<<<<<< HEAD:app/src/main/res/layout/activity_detail.xml
-
-=======
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="16dp"
         android:fontFamily="@font/HMFMPYUN"
         android:text="대인공포증"
         android:textSize="40sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.034"
+        app:layout_constraintHorizontal_bias="0.031"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -28,29 +25,30 @@
         android:id="@+id/view"
         android:layout_width="match_parent"
         android:layout_height="5px"
-        android:layout_marginBottom="568dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:background="#000000"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="20dp"
         android:fontFamily="@font/HMFMPYUN"
         android:text="낯선 인물과의 대면 혹은 대화에 공포 반응을 보이는 공포증을 뜻한다. 공황장애와 광장 공포증과 대인 공포증은 구분이 어렵다. 사람을 만나면 공포에 빠진다면 대인공포증이라 볼수있다. 공포증 발생원인으로는 왕따와같은 마음의 상처가 있거나 자존감이 낮은 경우 생길 수 있다. 종류로는 적면공포, 시선공포, 대화공포가 있다."
+        android:textAppearance="@style/TextAppearance.AppCompat"
         android:textSize="25sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textColor="#000000"
+        app:layout_constraintDimensionRatio="1:1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view" />
 
->>>>>>> 5e4f4e15ee4c600ec1256037cdb27d3197e7e62a:app/src/main/res/layout/anaphobia.xml
+
 </android.support.constraint.ConstraintLayout>

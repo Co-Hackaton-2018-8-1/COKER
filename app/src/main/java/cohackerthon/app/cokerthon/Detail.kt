@@ -3,10 +3,10 @@ package cohackerthon.app.cokerthon
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 
-class Detail3 : AppCompatActivity() {
+class Detail : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.anaphobia)
+        setContentView(R.layout.claustrophobia)
     }
 }
